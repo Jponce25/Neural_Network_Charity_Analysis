@@ -26,7 +26,7 @@ Using bulleted lists and images to support your answers, address the following q
 
 ### Data Preprocessing
 
-<img src="https://github.com/Jponce25/Cryptocurrencies/blob/fa501ece8144b10b95295a9f89557f7305c5840d/Image/Imagen1.png" width="250">
+<img src="https://github.com/Jponce25/Neural_Network_Charity_Analysis/blob/67bbbf67d3dbe996a34a027cf34c1f8ce4e53415/Image/Imagen1.png" width="250">
 
 - **What variable(s) are considered the target(s) for your model?**
 The variable considered as the target is "IS_SUCCESSFUL"
@@ -39,7 +39,7 @@ The "EIN" and "NAME" columns have been dropped
 
 ### Compiling, Training, and Evaluating the Model
 
-<img src="https://github.com/Jponce25/Cryptocurrencies/blob/fa501ece8144b10b95295a9f89557f7305c5840d/Image/Imagen1.png" width="250">
+<img src="https://github.com/Jponce25/Neural_Network_Charity_Analysis/blob/67bbbf67d3dbe996a34a027cf34c1f8ce4e53415/Image/Imagen2.png" width="250">
 
 - **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 For the neural network model we use 2 hidden layers with 80 neurons and 30. Both hidden layer have the "relu" activation function. The output layer has the "sigmoid" activation function.
@@ -51,15 +51,15 @@ The model was not able to reach the target 75%. The accuracy for my model was 72
 
 Attempt 1: First we try to remove additional feature 'EIN','NAME','ASK_AMT','SPECIAL_CONSIDERATIONS'. And also we try with less neurons in each hidden layer 40 for the first one and 20 for the second one, the model accuracy grew a little to 72.48%.
 
-<img src="https://github.com/Jponce25/Cryptocurrencies/blob/fa501ece8144b10b95295a9f89557f7305c5840d/Image/Imagen1.png" width="250">
+<img src="https://github.com/Jponce25/Neural_Network_Charity_Analysis/blob/67bbbf67d3dbe996a34a027cf34c1f8ce4e53415/Image/Imagen3.png" width="250">
 
 Attempt 2: For this model we try to remove only 'EIN','NAME','SPECIAL_CONSIDERATIONS' features. Also we add an additional hidden layer with 40 neurons, 20 and 5. The accuracy went down again same as the first model, 72.33%.
 
-<img src="https://github.com/Jponce25/Cryptocurrencies/blob/fa501ece8144b10b95295a9f89557f7305c5840d/Image/Imagen1.png" width="250">
+<img src="https://github.com/Jponce25/Neural_Network_Charity_Analysis/blob/67bbbf67d3dbe996a34a027cf34c1f8ce4e53415/Image/Imagen4.png" width="250">
 
 Attempt 3: We remove 'EIN','NAME','STATUS','SPECIAL_CONSIDERATIONS','USE_CASE'. Also we add an additional hidden layer with 60 neurons, 30 and 10. Changing activation function of first and second layer from "relu" to "selu." The accuracy of the model went down to 71.72%.
 
-<img src="https://github.com/Jponce25/Cryptocurrencies/blob/fa501ece8144b10b95295a9f89557f7305c5840d/Image/Imagen1.png" width="250">
+<img src="https://github.com/Jponce25/Neural_Network_Charity_Analysis/blob/67bbbf67d3dbe996a34a027cf34c1f8ce4e53415/Image/Imagen5.png" width="250">
 
 ## Summary
 
